@@ -1,0 +1,5 @@
+FROM node:17
+
+COPY hello-world.js .
+
+CMD ["node", "hello-world.js"]
